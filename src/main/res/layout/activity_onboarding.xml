@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <!-- Logo -->
+
+    <!-- App Name -->
+    <ImageView
+        android:id="@+id/onboardingLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAWPALS"
+        android:textColor="#8B6FD9"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share moments, connect with pet lovers,\nand discover your pet community!"
+        android:textColor="#666666"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Create Account Button -->
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Create An Account"
+        android:backgroundTint="#F7941D"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Already Have Account -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Already Have An Account"
+        android:background="@drawable/rounded_button_outline"
+        android:textColor="#8B6FD9"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
